@@ -1,4 +1,4 @@
-## Projeto 1: Criação de Bucket na AWS e Storage Account na Azure com Terraform
+## Projeto 1: Criação de Bucket na AWS e Storage Account na Azure usando Terraform
 
 #### Objetivo: 
 Criar um bucket na AWS S3 e uma Storage Account na Azure utilizando Terraform, explorando variáveis, local values, outputs e remote state.
