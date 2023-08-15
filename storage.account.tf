@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "projeto-terraform-group" {
 
 
 resource "azurerm_storage_account" "projeto-terraform-storage" {
-  name                     = "terraformstorageaccount"
+  name                     = "storageaccounttf2112"
   resource_group_name      = azurerm_resource_group.projeto-terraform-group.name
   location                 = var.location
   account_tier             = var.account_tier
