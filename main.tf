@@ -4,7 +4,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=3.58.0"
+      version = "=3.57.0"
     }
     aws = {
       source  = "hashicorp/aws"
@@ -13,12 +13,10 @@ terraform {
   }
 }
 
-# Configure the Microsoft Azure Provider
 provider "azurerm" {
-  #skip_provider_registration = true
   features {}
 }
 
 provider "aws" {
-  region     = "us-east-1"
+  region = "us-east-1"
 }

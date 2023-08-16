@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "projeto_terraform_bucket" {
-  bucket = "projeto-terraform2112"
+  bucket        = "projeto-terraform2112"
   force_destroy = true
 
   tags = local.common_tags
